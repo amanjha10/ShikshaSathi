@@ -14,26 +14,7 @@ from tts import TTSHandler
 from stt import STTHandler
 from rag import RAGHandler
 
-from llama_index.llms.gemini import Gemini
-gemini_llm = Gemini(model_name="models/gemini-2.5-flash")
-
-def translate_nepali_to_english(text):
-    # Use Gemini API for translation
-    prompt = f"Translate the following Nepali text to English. Only return the translation, no explanations:\n\n{text}"
-    result = gemini_llm.complete(prompt)
-    return str(result).strip()
-
-def translate_english_to_nepali(text):
-    # Use Gemini API for translation and summarization
-    prompt = (
-        "Translate the following English text to Nepali for a phone call. "
-        "Summarize and keep the response short and clear. "
-        "Do not use any digits in the Nepali response; write numbers in Nepali words. "
-        "Only return the Nepali summary, no explanations, and do not repeat the original question.\n\n"
-        f"English response: {text}"
-    )
-    result = gemini_llm.complete(prompt)
-    return str(result).strip()
+# Translation layer removed - now using direct multilingual embeddings
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -67,23 +48,29 @@ async def websocket_endpoint(websocket: WebSocket):
                     }))
                     text = stt_handler.transcribe(audio_data)
                     logger.info(f"STT output: {text}")
-                    english_query = translate_nepali_to_english(text)
-                    logger.info(f"Translated to English: {english_query}")
-                    rag_result = rag_handler.query(english_query)
-                    if isinstance(rag_result, tuple):
-                        response, context = rag_result
-                    else:
-                        response, context = rag_result, None
-                    logger.info(f"RAG response: {response}")
-                    if context:
-                        logger.info(f"RAG context: {context}")
-                    nepali_response = translate_english_to_nepali(response)
-                    logger.info(f"Translated to Nepali: {nepali_response}")
+                    # Always send buffer message for ALL queries to maintain consistent perceived latency
+                    buffer_message = "तपाईंको प्रश्नको लागि धन्यवाद। जवाफ तयार पार्दै छु..."
+                    await websocket.send_text(json.dumps({
+                        "type": "text_response",
+                        "text": buffer_message,
+                        "is_buffer": True
+                    }))
+                    # Also send buffer message as audio for immediate playback
+                    buffer_audio = tts_handler.synthesize(buffer_message)
+                    buffer_audio_b64 = base64.b64encode(buffer_audio).decode('utf-8')
+                    await websocket.send_text(json.dumps({
+                        "type": "audio_response",
+                        "audio": buffer_audio_b64,
+                        "is_buffer": True
+                    }))
+                    # Direct Nepali query to RAG (no translation needed)
+                    nepali_response = rag_handler.get_nepali_answer(text)
+                    logger.info(f"RAG Nepali response: {nepali_response}")
                     audio_response = tts_handler.synthesize(nepali_response)
                     await websocket.send_text(json.dumps({
                         "type": "text_response",
                         "text": nepali_response,
-                        "rag_context": context
+                        "is_buffer": False
                     }))
                     response_audio_b64 = base64.b64encode(audio_response).decode('utf-8')
                     await websocket.send_text(json.dumps({
@@ -104,20 +91,30 @@ async def websocket_endpoint(websocket: WebSocket):
                         "message": "Processing your question..."
                     }))
                     logger.info(f"Query to RAG (from text): {input_text}")
-                    rag_result = rag_handler.query(input_text)
-                    if isinstance(rag_result, tuple):
-                        response, context = rag_result
-                    else:
-                        response, context = rag_result, None
-                    logger.info(f"RAG response: {response}")
-                    if context:
-                        logger.info(f"RAG context: {context}")
+                    # Always send buffer message for ALL queries to maintain consistent perceived latency
+                    buffer_message = "तपाईंको प्रश्नको लागि धन्यवाद। जवाफ तयार पार्दै छु..."
                     await websocket.send_text(json.dumps({
                         "type": "text_response",
-                        "text": response,
-                        "rag_context": context
+                        "text": buffer_message,
+                        "is_buffer": True
                     }))
-                    audio_response = tts_handler.synthesize(response)
+                    # Also send buffer message as audio for immediate playback
+                    buffer_audio = tts_handler.synthesize(buffer_message)
+                    buffer_audio_b64 = base64.b64encode(buffer_audio).decode('utf-8')
+                    await websocket.send_text(json.dumps({
+                        "type": "audio_response",
+                        "audio": buffer_audio_b64,
+                        "is_buffer": True
+                    }))
+                    # Direct Nepali query to RAG (no translation needed)
+                    nepali_response = rag_handler.get_nepali_answer(input_text)
+                    logger.info(f"RAG Nepali response: {nepali_response}")
+                    await websocket.send_text(json.dumps({
+                        "type": "text_response",
+                        "text": nepali_response,
+                        "is_buffer": False
+                    }))
+                    audio_response = tts_handler.synthesize(nepali_response)
                     if audio_response:
                         response_audio_b64 = base64.b64encode(audio_response).decode('utf-8')
                         await websocket.send_text(json.dumps({

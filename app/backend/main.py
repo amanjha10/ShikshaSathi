@@ -15,11 +15,12 @@ from stt_handler import STTHandler
 from tts_handler import TTSHandler
 from rag_handler import RAGHandler
 from vad_handler import VADHandler, AudioProcessor
-from translation import translate_nepali_to_english, translate_english_to_nepali
-from llm import summarize_rag_to_nepali
+# Translation layer removed - using direct multilingual embeddings
+# Using RAG handler's built-in Nepali summarization
 
-# Load environment variables from .env file
-load_dotenv()
+# Load environment variables from .env file (look in parent directories)
+load_dotenv(dotenv_path="../../.env")
+load_dotenv()  # Also try current directory
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -85,6 +86,22 @@ async def websocket_endpoint(websocket: WebSocket):
         },
         "vad_enabled": True
     }))
+
+    # Send welcome message
+    welcome_message = "नमस्ते! काठमाडौं विश्वविद्यालयको भर्ना सहायकको रूपमा, तपाईंलाई भर्ना, कोर्स, शुल्क वा अध्ययनबारे केही सोध्नु छ?"
+    await websocket.send_text(json.dumps({
+        "type": "text_response",
+        "text": welcome_message,
+        "is_welcome": True
+    }))
+    # Also send welcome message as audio
+    welcome_audio = tts_handler.synthesize(welcome_message)
+    welcome_audio_b64 = base64.b64encode(welcome_audio).decode('utf-8')
+    await websocket.send_text(json.dumps({
+        "type": "audio_response",
+        "audio": welcome_audio_b64,
+        "is_welcome": True
+    }))
     try:
         while True:
             data = await websocket.receive_text()
@@ -136,21 +153,33 @@ async def websocket_endpoint(websocket: WebSocket):
                     step_log.append("Received audio from user.")
                     nepali_text = stt_handler.transcribe(audio_data)
                     step_log.append(f"STT output: {nepali_text}")
+
+                    # Always send buffer message for ALL queries to maintain consistent perceived latency
+                    buffer_message = "तपाईंको प्रश्नको लागि धन्यवाद। जवाफ तयार पार्दै छु..."
+                    await websocket.send_text(json.dumps({
+                        "type": "text_response",
+                        "text": buffer_message,
+                        "is_buffer": True
+                    }))
+                    # Also send buffer message as audio for immediate playback
+                    buffer_audio = tts_handler.synthesize(buffer_message)
+                    buffer_audio_b64 = base64.b64encode(buffer_audio).decode('utf-8')
+                    await websocket.send_text(json.dumps({
+                        "type": "audio_response",
+                        "audio": buffer_audio_b64,
+                        "is_buffer": True
+                    }))
+
                     agent_decision = agent.classify(nepali_text)
                     step_log.append(f"Agent decision: {agent_decision}")
+
                     if agent_decision == "rag":
-                        await websocket.send_text(json.dumps({
-                            "type": "text_response",
-                            "text": "Please wait till I look up the information",
-                            "agent_decision": agent_decision,
-                            "step_log": step_log
-                        }))
-                        english_query = translate_nepali_to_english(nepali_text)
-                        step_log.append(f"Translated to English: {english_query}")
-                        rag_context = rag_handler.query(english_query)
-                        step_log.append(f"RAG context: {rag_context}")
-                        nepali_response = summarize_rag_to_nepali(rag_context, nepali_text)
-                        step_log.append(f"LLM summarized to Nepali: {nepali_response}")
+                        # Direct Nepali query to RAG (no translation needed)
+                        nepali_response = rag_handler.get_nepali_answer(nepali_text)
+                        step_log.append(f"RAG Nepali response: {nepali_response}")
+                    elif agent_decision == "goodbye":
+                        nepali_response = agent.goodbye_conversation(nepali_text)
+                        step_log.append(f"Goodbye response: {nepali_response}")
                     else:
                         nepali_response = agent.normal_conversation(nepali_text)
                         step_log.append(f"LLM conversational response: {nepali_response}")
@@ -179,21 +208,33 @@ async def websocket_endpoint(websocket: WebSocket):
                 try:
                     input_text = message.get("text", "")
                     step_log.append(f"Received text: {input_text}")
+
+                    # Always send buffer message for ALL queries to maintain consistent perceived latency
+                    buffer_message = "तपाईंको प्रश्नको लागि धन्यवाद। जवाफ तयार पार्दै छु..."
+                    await websocket.send_text(json.dumps({
+                        "type": "text_response",
+                        "text": buffer_message,
+                        "is_buffer": True
+                    }))
+                    # Also send buffer message as audio for immediate playback
+                    buffer_audio = tts_handler.synthesize(buffer_message)
+                    buffer_audio_b64 = base64.b64encode(buffer_audio).decode('utf-8')
+                    await websocket.send_text(json.dumps({
+                        "type": "audio_response",
+                        "audio": buffer_audio_b64,
+                        "is_buffer": True
+                    }))
+
                     agent_decision = agent.classify(input_text)
                     step_log.append(f"Agent decision: {agent_decision}")
+
                     if agent_decision == "rag":
-                        await websocket.send_text(json.dumps({
-                            "type": "text_response",
-                            "text": "Please wait till I look up the information",
-                            "agent_decision": agent_decision,
-                            "step_log": step_log
-                        }))
-                        english_query = translate_nepali_to_english(input_text)
-                        step_log.append(f"Translated to English: {english_query}")
-                        rag_context = rag_handler.query(english_query)
-                        step_log.append(f"RAG context: {rag_context}")
-                        nepali_response = summarize_rag_to_nepali(rag_context, input_text)
-                        step_log.append(f"LLM summarized to Nepali: {nepali_response}")
+                        # Direct Nepali query to RAG (no translation needed)
+                        nepali_response = rag_handler.get_nepali_answer(input_text)
+                        step_log.append(f"RAG Nepali response: {nepali_response}")
+                    elif agent_decision == "goodbye":
+                        nepali_response = agent.goodbye_conversation(input_text)
+                        step_log.append(f"Goodbye response: {nepali_response}")
                     else:
                         nepali_response = agent.normal_conversation(input_text)
                         step_log.append(f"LLM conversational response: {nepali_response}")
@@ -327,42 +368,27 @@ async def process_complete_speech(websocket: WebSocket, audio_data: np.ndarray, 
             "timestamp": time.time()
         }))
 
+        # Always send initial wait message for ALL queries to maintain consistent perceived latency
+        buffer_message = "तपाईंको प्रश्नको लागि धन्यवाद। जवाफ तयार पार्दै छु..."
+        await websocket.send_text(json.dumps({
+            "type": "text_response",
+            "text": buffer_message,
+            "agent_decision": "searching",
+            "step_log": step_log
+        }))
+        # Also send buffer message as audio for immediate playback
+        buffer_audio = tts_handler.synthesize(buffer_message)
+        buffer_audio_b64 = base64.b64encode(buffer_audio).decode('utf-8')
+        await websocket.send_text(json.dumps({
+            "type": "audio_response",
+            "audio": buffer_audio_b64,
+            "is_buffer": True
+        }))
+
         rag_context = None
         if agent_decision == "rag":
-            # Send initial wait message
-            await websocket.send_text(json.dumps({
-                "type": "text_response",
-                "text": "कृपया केही क्षण कुर्नुहोस्, म जानकारी खोज्दै छु। यसले केही समय लाग्न सक्छ।",
-                "agent_decision": "searching",
-                "step_log": step_log
-            }))
 
-            # Translation step
-            await websocket.send_text(json.dumps({
-                "type": "realtime_update",
-                "task": "translation",
-                "status": "processing",
-                "message": "🌐 नेपालीबाट अंग्रेजीमा अनुवाद गर्दै...",
-                "timestamp": time.time()
-            }))
-
-            translation_start = time.time()
-            english_query = translate_nepali_to_english(nepali_text)
-            translation_time = time.time() - translation_start
-
-            step_log.append(f"Translated to English: {english_query}")
-
-            await websocket.send_text(json.dumps({
-                "type": "realtime_update",
-                "task": "translation",
-                "status": "completed",
-                "message": f"✅ अनुवाद सम्पन्न ({translation_time:.1f}s)",
-                "result": english_query,
-                "duration": translation_time,
-                "timestamp": time.time()
-            }))
-
-            # RAG search step
+            # Direct RAG processing with multilingual embeddings
             await websocket.send_text(json.dumps({
                 "type": "realtime_update",
                 "task": "rag",
@@ -372,41 +398,17 @@ async def process_complete_speech(websocket: WebSocket, audio_data: np.ndarray, 
             }))
 
             rag_start = time.time()
-            rag_context = rag_handler.query(english_query)
+            nepali_response = rag_handler.get_nepali_answer(nepali_text)
             rag_time = time.time() - rag_start
 
-            step_log.append(f"RAG context: {rag_context}")
+            step_log.append(f"RAG Nepali response: {nepali_response}")
 
             await websocket.send_text(json.dumps({
                 "type": "realtime_update",
                 "task": "rag",
                 "status": "completed",
-                "message": f"✅ Knowledge Base खोज सम्पन्न ({rag_time:.1f}s)",
+                "message": f"✅ जवाफ तयार ({rag_time:.1f}s)",
                 "duration": rag_time,
-                "timestamp": time.time()
-            }))
-
-            # LLM processing step
-            await websocket.send_text(json.dumps({
-                "type": "realtime_update",
-                "task": "llm",
-                "status": "processing",
-                "message": "🧠 AI मोडेलले जवाफ तयार गर्दै...",
-                "timestamp": time.time()
-            }))
-
-            llm_start = time.time()
-            nepali_response = summarize_rag_to_nepali(rag_context, nepali_text)
-            llm_time = time.time() - llm_start
-
-            step_log.append(f"LLM summarized to Nepali: {nepali_response}")
-
-            await websocket.send_text(json.dumps({
-                "type": "realtime_update",
-                "task": "llm",
-                "status": "completed",
-                "message": f"✅ AI जवाफ तयार ({llm_time:.1f}s)",
-                "duration": llm_time,
                 "timestamp": time.time()
             }))
 

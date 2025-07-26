@@ -1,43 +1,43 @@
-# Bachelor of Science in Information Technology (IT)
+# सूचना प्रविधिमा विज्ञान स्नातक (IT)
 
 -c-h-u-n-k-h-e-r-e-
 
-## Information Technology (IT) Program Overview
-The Bachelor of Science in Information Technology at KUSOE is a four-year program that focuses on the application of computer and communication technologies to solve real-world problems. The curriculum covers a broad range of topics, including programming, databases, networking, web technologies, and system administration. The program prepares students for careers in IT support, network administration, software development, and IT management.
+## सूचना प्रविधि (IT) कार्यक्रम परिचय
+KUSOE मा सूचना प्रविधिमा विज्ञान स्नातक चार वर्षे कार्यक्रम हो जसले वास्तविक संसारका समस्याहरू समाधान गर्न कम्प्युटर र सञ्चार प्रविधिहरूको प्रयोगमा केन्द्रित छ। पाठ्यक्रमले प्रोग्रामिङ, डेटाबेस, नेटवर्किङ, वेब प्रविधि र सिस्टम प्रशासन सहित विस्तृत विषयहरू समेट्छ। कार्यक्रमले विद्यार्थीहरूलाई IT सपोर्ट, नेटवर्क प्रशासन, सफ्टवेयर विकास र IT व्यवस्थापनमा करियरको लागि तयार पार्छ।
 
 -c-h-u-n-k-h-e-r-e-
 
-## Information Technology (IT) Program Objectives
-- To provide a strong foundation in the principles of information technology.
-- To develop skills in the design, implementation, and management of IT systems.
-- To provide knowledge of current and emerging technologies in the IT industry.
-- To foster an understanding of the role of IT in business and society.
-- To prepare students for a successful career in the dynamic field of IT.
+## सूचना प्रविधि (IT) कार्यक्रम उद्देश्यहरू
+- सूचना प्रविधिका सिद्धान्तहरूमा बलियो आधार प्रदान गर्नु।
+- IT प्रणालीहरूको डिजाइन, कार्यान्वयन र व्यवस्थापनमा सीपहरू विकास गर्नु।
+- IT उद्योगमा वर्तमान र उदीयमान प्रविधिहरूको ज्ञान प्रदान गर्नु।
+- व्यापार र समाजमा IT को भूमिकाको बुझाइ बढाउनु।
+- IT को गतिशील क्षेत्रमा सफल करियरको लागि विद्यार्थीहरूलाई तयार पार्नु।
 
 -c-h-u-n-k-h-e-r-e-
 
-## Information Technology (IT) Career Prospects
-Graduates can work as:
-- IT Manager
-- System Administrator
-- Network Administrator
-- Database Administrator
-- Web Developer
-- IT Consultant
+## सूचना प्रविधि (IT) करियर सम्भावनाहरू
+स्नातकहरूले निम्नलिखित पदमा काम गर्न सक्छन्:
+- IT प्रबन्धक
+- सिस्टम प्रशासक
+- नेटवर्क प्रशासक
+- डेटाबेस प्रशासक
+- वेब डेभलपर
+- IT सल्लाहकार
 
 -c-h-u-n-k-h-e-r-e-
 
-## Information Technology (IT) Fee Structure
-The total fee for the 4-year IT program is NPR 915,000. This is broken down into semester-wise payments as follows (amounts are approximate and subject to change):
-- **Admission Fee:** NPR 100,000 (one-time payment at the time of admission)
-- **Security Deposit:** NPR 10,000 (one-time, refundable)
-- **Semester 1 Fee:** NPR 101,875
-- **Semester 2 Fee:** NPR 101,875
-- **Semester 3 Fee:** NPR 101,875
-- **Semester 4 Fee:** NPR 101,875
-- **Semester 5 Fee:** NPR 101,875
-- **Semester 6 Fee:** NPR 101,875
-- **Semester 7 Fee:** NPR 101,875
+## सूचना प्रविधि (IT) शुल्क संरचना
+चार वर्षे IT कार्यक्रमको कुल शुल्क नेपाली रुपैयाँ नौ लाख पन्ध्र हजार छ। यो निम्नलिखित सेमेस्टर-वार भुक्तानीमा विभाजित छ (रकमहरू अनुमानित छन् र परिवर्तन हुन सक्छ):
+- **भर्ना शुल्क:** नेपाली रुपैयाँ एक लाख (भर्नाको समयमा एक पटक भुक्तानी)
+- **सुरक्षा जम्मा:** नेपाली रुपैयाँ दश हजार (एक पटक, फिर्ता गरिने)
+- **सेमेस्टर १ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर २ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ३ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ४ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ५ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ६ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ७ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
 - **Semester 8 Fee:** NPR 101,875
 - **Note:** Additional fees for exams, lab materials, and other miscellaneous expenses may be applicable.
 

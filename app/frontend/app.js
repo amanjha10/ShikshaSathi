@@ -390,9 +390,32 @@ ws.onmessage = (event) => {
             break;
 
         case 'audio_response':
-            audioPlayer.src = 'data:audio/wav;base64,' + msg.audio;
-            audioPlayer.style.display = 'block';
-            audioPlayer.play();
+            // Handle buffer vs final audio differently
+            if (msg.is_buffer) {
+                // For buffer messages, play immediately but allow interruption
+                if (!audioPlayer.paused) {
+                    audioPlayer.pause();
+                    audioPlayer.currentTime = 0;
+                }
+                audioPlayer.src = 'data:audio/wav;base64,' + msg.audio;
+                audioPlayer.style.display = 'block';
+                audioPlayer.play().catch(error => {
+                    console.log('Buffer audio play failed:', error);
+                });
+            } else {
+                // For final responses, wait a bit to ensure buffer is done, then play
+                setTimeout(() => {
+                    if (!audioPlayer.paused) {
+                        audioPlayer.pause();
+                        audioPlayer.currentTime = 0;
+                    }
+                    audioPlayer.src = 'data:audio/wav;base64,' + msg.audio;
+                    audioPlayer.style.display = 'block';
+                    audioPlayer.play().catch(error => {
+                        console.log('Final audio play failed:', error);
+                    });
+                }, 200); // Small delay to prevent overlap
+            }
             break;
 
         case 'error':

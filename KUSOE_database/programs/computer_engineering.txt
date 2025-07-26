@@ -1,122 +1,122 @@
-# Bachelor of Engineering in Computer Engineering (CE)
+# कम्प्युटर इन्जिनियरिङमा स्नातक (CE)
 
 -c-h-u-n-k-h-e-r-e-
 
-## Computer Engineering (CE) Program Overview
-The Bachelor of Engineering in Computer Engineering program at Kathmandu University is a four-year, eight-semester course that provides a strong foundation in the principles and practices of both computer science and electronics engineering. The curriculum is designed to produce graduates who are proficient in designing, developing, and implementing computer systems and applications. The program emphasizes a hands-on, project-based learning approach, preparing students for careers in software development, network engineering, embedded systems, and other related fields.
+## कम्प्युटर इन्जिनियरिङ (CE) कार्यक्रम परिचय
+काठमाडौं विश्वविद्यालयको कम्प्युटर इन्जिनियरिङमा स्नातक कार्यक्रम चार वर्षे, आठ सेमेस्टरको पाठ्यक्रम हो जसले कम्प्युटर विज्ञान र इलेक्ट्रोनिक्स इन्जिनियरिङ दुवैका सिद्धान्त र अभ्यासहरूमा बलियो आधार प्रदान गर्छ। पाठ्यक्रम कम्प्युटर प्रणाली र अनुप्रयोगहरूको डिजाइन, विकास र कार्यान्वयनमा दक्ष स्नातकहरू उत्पादन गर्न डिजाइन गरिएको छ। कार्यक्रमले व्यावहारिक, परियोजना-आधारित सिकाइ दृष्टिकोणलाई जोड दिन्छ, जसले विद्यार्थीहरूलाई सफ्टवेयर विकास, नेटवर्क इन्जिनियरिङ, एम्बेडेड सिस्टम र अन्य सम्बन्धित क्षेत्रहरूमा करियरको लागि तयार पार्छ।
 
 -c-h-u-n-k-h-e-r-e-
 
-## Computer Engineering (CE) Program Objectives
-- To provide a solid understanding of the fundamental principles of computer science and engineering.
-- To develop skills in software design, development, and testing.
-- To provide knowledge of computer hardware, architecture, and networking.
-- To foster an understanding of the social, ethical, and professional responsibilities of a computer engineer.
-- To encourage lifelong learning and research in the field of computer engineering.
+## कम्प्युटर इन्जिनियरिङ (CE) कार्यक्रम उद्देश्यहरू
+- कम्प्युटर विज्ञान र इन्जिनियरिङका आधारभूत सिद्धान्तहरूको ठोस बुझाइ प्रदान गर्नु।
+- सफ्टवेयर डिजाइन, विकास र परीक्षणमा सीपहरू विकास गर्नु।
+- कम्प्युटर हार्डवेयर, आर्किटेक्चर र नेटवर्किङको ज्ञान प्रदान गर्नु।
+- कम्प्युटर इन्जिनियरको सामाजिक, नैतिक र व्यावसायिक जिम्मेवारीहरूको बुझाइ बढाउनु।
+- कम्प्युटर इन्जिनियरिङको क्षेत्रमा आजीवन सिकाइ र अनुसन्धानलाई प्रोत्साहन दिनु।
 
 -c-h-u-n-k-h-e-r-e-
 
-## Computer Engineering (CE) Career Prospects
-Graduates of the Computer Engineering program have a wide range of career opportunities in various sectors, including:
-- Software Development Companies
-- IT Consultancies
-- Telecommunication Companies
-- Government and Non-Governmental Organizations
-- Research and Development Institutions
-- Academia
+## कम्प्युटर इन्जिनियरिङ (CE) करियर सम्भावनाहरू
+कम्प्युटर इन्जिनियरिङ कार्यक्रमका स्नातकहरूसँग विभिन्न क्षेत्रहरूमा करियरका व्यापक अवसरहरू छन्, जसमा समावेश छ:
+- सफ्टवेयर विकास कम्पनीहरू
+- आईटी सल्लाहकार सेवाहरू
+- दूरसञ्चार कम्पनीहरू
+- सरकारी र गैर-सरकारी संस्थाहरू
+- अनुसन्धान र विकास संस्थानहरू
+- शैक्षिक क्षेत्र
 
 -c-h-u-n-k-h-e-r-e-
 
-## Computer Engineering (CE) Fee Structure
-The total fee for the 4-year Computer Engineering program is NPR 915,000. This is broken down into semester-wise payments as follows (amounts are approximate and subject to change):
-- **Admission Fee:** NPR 100,000 (one-time payment at the time of admission)
-- **Security Deposit:** NPR 10,000 (one-time, refundable)
-- **Semester 1 Fee:** NPR 101,875
-- **Semester 2 Fee:** NPR 101,875
-- **Semester 3 Fee:** NPR 101,875
-- **Semester 4 Fee:** NPR 101,875
-- **Semester 5 Fee:** NPR 101,875
-- **Semester 6 Fee:** NPR 101,875
-- **Semester 7 Fee:** NPR 101,875
-- **Semester 8 Fee:** NPR 101,875
-- **Note:** Additional fees for exams, lab materials, and other miscellaneous expenses may be applicable.
+## कम्प्युटर इन्जिनियरिङ (CE) शुल्क संरचना
+चार वर्षे कम्प्युटर इन्जिनियरिङ कार्यक्रमको कुल शुल्क नेपाली रुपैयाँ नौ लाख पन्ध्र हजार छ। यो निम्नलिखित सेमेस्टर-वार भुक्तानीमा विभाजित छ (रकमहरू अनुमानित छन् र परिवर्तन हुन सक्छ):
+- **भर्ना शुल्क:** नेपाली रुपैयाँ एक लाख (भर्नाको समयमा एक पटक भुक्तानी)
+- **सुरक्षा जम्मा:** नेपाली रुपैयाँ दश हजार (एक पटक, फिर्ता गरिने)
+- **सेमेस्टर १ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर २ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ३ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ४ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ५ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ६ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ७ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ८ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **नोट:** परीक्षा, प्रयोगशाला सामग्री र अन्य विविध खर्चहरूको लागि अतिरिक्त शुल्कहरू लागू हुन सक्छ।
 
 -c-h-u-n-k-h-e-r-e-
 
-## Computer Engineering (CE) Course Structure
+## कम्प्युटर इन्जिनियरिङ (CE) पाठ्यक्रम संरचना
 
-### Year 1, Semester 1
-- MATH 101: Calculus and Linear Algebra
-- PHYS 101: General Physics I
-- ENGG 101: Introduction to Engineering
-- COMP 101: Computer Programming I (C)
-- EEEG 101: Basic Electrical Engineering
-- ENGT 101: Communication Skills I
+### वर्ष १, सेमेस्टर १
+- MATH 101: क्यालकुलस र रैखिक बीजगणित
+- PHYS 101: सामान्य भौतिकशास्त्र I
+- ENGG 101: इन्जिनियरिङको परिचय
+- COMP 101: कम्प्युटर प्रोग्रामिङ I (C)
+- EEEG 101: आधारभूत विद्युत इन्जिनियरिङ
+- ENGT 101: सञ्चार सीप I
 
-### Year 1, Semester 2
-- MATH 102: Differential Equations and Complex Variables
-- PHYS 102: General Physics II
-- COMP 102: Computer Programming II (C++)
-- EEEG 102: Basic Electronics Engineering
-- MECH 101: Engineering Drawing
-- ENGT 102: Communication Skills II
+### वर्ष १, सेमेस्टर २
+- MATH 102: अवकल समीकरण र जटिल चर
+- PHYS 102: सामान्य भौतिकशास्त्र II
+- COMP 102: कम्प्युटर प्रोग्रामिङ II (C++)
+- EEEG 102: आधारभूत इलेक्ट्रोनिक्स इन्जिनियरिङ
+- MECH 101: इन्जिनियरिङ चित्रकारी
+- ENGT 102: सञ्चार सीप II
 
-### Year 2, Semester 1
-- MATH 201: Probability and Statistics
-- COMP 201: Data Structures and Algorithms
-- COMP 202: Object-Oriented Programming (Java)
-- EEEG 201: Digital Logic
-- EEEG 202: Electric Circuits and Machines
-- MGTS 201: Principles of Management
+### वर्ष २, सेमेस्टर १
+- MATH 201: सम्भाव्यता र तथ्याङ्क
+- COMP 201: डेटा संरचना र एल्गोरिदम
+- COMP 202: वस्तु-उन्मुख प्रोग्रामिङ (Java)
+- EEEG 201: डिजिटल तर्क
+- EEEG 202: विद्युत सर्किट र मेसिनहरू
+- MGTS 201: व्यवस्थापनका सिद्धान्तहरू
 
-### Year 2, Semester 2
-- MATH 202: Numerical Methods
-- COMP 203: Database Management Systems
-- COMP 204: Computer Organization and Architecture
-- EEEG 203: Electronic Devices and Circuits
-- EEEG 204: Microprocessors
-- ENVE 201: Environmental Science and Engineering
+### वर्ष २, सेमेस्टर २
+- MATH 202: संख्यात्मक विधिहरू
+- COMP 203: डेटाबेस व्यवस्थापन प्रणाली
+- COMP 204: कम्प्युटर संगठन र आर्किटेक्चर
+- EEEG 203: इलेक्ट्रोनिक उपकरण र सर्किट
+- EEEG 204: माइक्रोप्रोसेसर
+- ENVE 201: वातावरणीय विज्ञान र इन्जिनियरिङ
 
-### Year 3, Semester 1
-- COMP 301: Operating Systems
-- COMP 302: Computer Networks
-- COMP 303: Software Engineering
-- COMP 304: Theory of Computation
-- EEEG 301: Signals and Systems
-- Project I
+### वर्ष ३, सेमेस्टर १
+- COMP 301: अपरेटिङ सिस्टम
+- COMP 302: कम्प्युटर नेटवर्क
+- COMP 303: सफ्टवेयर इन्जिनियरिङ
+- COMP 304: गणनाको सिद्धान्त
+- EEEG 301: संकेत र प्रणाली
+- परियोजना I
 
-### Year 3, Semester 2
-- COMP 305: Artificial Intelligence
-- COMP 306: Web Technologies
-- COMP 307: Compiler Design
-- Elective I
-- Elective II
-- Project II
+### वर्ष ३, सेमेस्टर २
+- COMP 305: कृत्रिम बुद्धिमत्ता
+- COMP 306: वेब प्रविधि
+- COMP 307: कम्पाइलर डिजाइन
+- वैकल्पिक I
+- वैकल्पिक II
+- परियोजना II
 
-### Year 4, Semester 1
-- COMP 401: Computer Graphics
-- COMP 402: Network and Cyber Security
-- Elective III
-- Elective IV
-- Project III
-- Internship
+### वर्ष ४, सेमेस्टर १
+- COMP 401: कम्प्युटर ग्राफिक्स
+- COMP 402: नेटवर्क र साइबर सुरक्षा
+- वैकल्पिक III
+- वैकल्पिक IV
+- परियोजना III
+- इन्टर्नशिप
 
-### Year 4, Semester 2
-- COMP 403: Distributed Systems
-- MGTS 401: Engineering Economics
-- ENGT 401: Professional Practice
-- Elective V
-- Final Year Project
+### वर्ष ४, सेमेस्टर २
+- COMP 403: वितरित प्रणाली
+- MGTS 401: इन्जिनियरिङ अर्थशास्त्र
+- ENGT 401: व्यावसायिक अभ्यास
+- वैकल्पिक V
+- अन्तिम वर्ष परियोजना
 
 -c-h-u-n-k-h-e-r-e-
 
-## Computer Engineering (CE) Elective Courses
-Students can choose from a range of elective courses in areas such as:
-- Machine Learning
-- Data Science and Big Data Analytics
-- Cloud Computing
-- Internet of Things (IoT)
-- Mobile Application Development
-- Robotics and Automation
-- Digital Image Processing
-- Natural Language Processing
+## कम्प्युटर इन्जिनियरिङ (CE) वैकल्पिक पाठ्यक्रमहरू
+विद्यार्थीहरूले निम्नलिखित क्षेत्रहरूमा वैकल्पिक पाठ्यक्रमहरूको दायराबाट छनोट गर्न सक्छन्:
+- मेसिन लर्निङ
+- डेटा साइन्स र बिग डेटा एनालिटिक्स
+- क्लाउड कम्प्युटिङ
+- इन्टरनेट अफ थिङ्स (IoT)
+- मोबाइल एप्लिकेसन विकास
+- रोबोटिक्स र स्वचालन
+- डिजिटल छवि प्रशोधन
+- प्राकृतिक भाषा प्रशोधन

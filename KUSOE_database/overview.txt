@@ -1,82 +1,82 @@
-# KUSOE General Information: Overview
+# KUSOE सामान्य जानकारी: परिचय
 
-Kathmandu University School of Engineering (KUSOE), established in 1994 AD, is a leading autonomous, non-profit, and self-funding academic institution in Nepal. Situated in Dhulikhel, KUSOE offers a wide range of undergraduate and graduate programs, aiming to produce self-motivated, competitive, and creative graduates with an entrepreneurial mindset. The school is renowned for its research-driven approach, experienced faculty, and strong industry connections, making it a benchmark for engineering education in Nepal.
-
--c-h-u-n-k-h-e-r-e-
-
-# KUSOE Admission Information: General Timeline
-Normal annual intake: Fall (July–September) for undergraduate and most graduate programs. Specific dates for application submission and entrance exams are announced on the official KU website (ku.edu.np) and the School of Engineering portal.
-
-Some graduate and postgraduate programs may have different intake times as decided by the respective School/Department.
+काठमाडौं विश्वविद्यालय इन्जिनियरिङ स्कूल (KUSOE), सन् १९९४ मा स्थापित, नेपालको एक अग्रणी स्वायत्त, गैर-नाफामुखी र स्व-वित्तपोषित शैक्षिक संस्थान हो। धुलिखेलमा अवस्थित, KUSOE ले उद्यमशीलताको मानसिकता भएका स्व-प्रेरित, प्रतिस्पर्धी र रचनात्मक स्नातकहरू उत्पादन गर्ने लक्ष्यका साथ स्नातक र स्नातकोत्तर कार्यक्रमहरूको व्यापक दायरा प्रदान गर्छ। यो स्कूल यसको अनुसन्धान-संचालित दृष्टिकोण, अनुभवी शिक्षकहरू र बलियो उद्योग जडानका लागि प्रसिद्ध छ, जसले यसलाई नेपालमा इन्जिनियरिङ शिक्षाको मापदण्डको रूपमा बनाएको छ।
 
 -c-h-u-n-k-h-e-r-e-
 
-# KUSOE Admission Information: Undergraduate Eligibility Criteria
-- Completion of 10+2 or equivalent from a recognized board with a minimum GPA of 2.0 or 50% aggregate marks.
-- For most engineering programs (Civil, Mechanical, Electrical, Computer, etc.), the student must have taken Physics, Chemistry, and Mathematics (PCM) group.
-- For A-Level: Minimum 3 A-level subjects and 1 AS-level in relevant combinations (PCB, PCM, or PMCs). A-level students must have studied Physics, Chemistry, and Mathematics for engineering programs.
-- For IB Diploma: Minimum 6 subjects with relevant combinations and a final IB grade of 3 in each course.
-- CTEVT Diploma holders: Eligible for related disciplines, subject to equivalent percentage criteria. A three-year diploma in a relevant engineering field is typically required.
-- Foreign Boards: Must present an equivalence certificate from the Curriculum Development Centre (CDC), Sanothimi, Bhaktapur, or from KU authority at the time of admission.
-- Candidates from the Biology stream (PCB) must have passed Additional Mathematics with a satisfactory grade to be eligible for the PCM-based KUCAT test.
-- Candidates awaiting Grade 12 results may apply for provisional admission. However, they must submit the final mark sheet and meet all requirements by the deadline specified by the university, or their admission will be canceled.
+# KUSOE भर्ना जानकारी: सामान्य समयतालिका
+सामान्य वार्षिक भर्ना: शरद (जुलाई–सेप्टेम्बर) स्नातक र अधिकांश स्नातकोत्तर कार्यक्रमहरूको लागि। आवेदन पेश गर्ने र प्रवेश परीक्षाका लागि विशिष्ट मितिहरू आधिकारिक KU वेबसाइट (ku.edu.np) र इन्जिनियरिङ स्कूल पोर्टलमा घोषणा गरिन्छ।
+
+केही स्नातकोत्तर र उच्च स्नातकोत्तर कार्यक्रमहरूमा सम्बन्धित स्कूल/विभागको निर्णय अनुसार फरक भर्ना समय हुन सक्छ।
 
 -c-h-u-n-k-h-e-r-e-
 
-# KUSOE Admission Information: Entrance Examination (KUCAT-CBT)
-- All applicants (except for Bachelor in Health Informatics and Bachelor in Heritage Conservation) must appear in the Kathmandu University Common Admission Test (KUCAT) Computer-Based Test (CBT).
-- The test is comprised of Multiple Choice Questions (MCQs) based on the 10+2 syllabus.
-- Test groups: PCM (Physics, Chemistry, Mathematics) or PCB (Physics,Chemistry, Biology), depending on the program. Engineering applicants must take the PCM test.
-- The entrance exam is a computer-based test (CBT) conducted at the KU Dhulikhel campus. Scores are typically based on the number of correct answers, and a merit list is published based on these scores.
+# KUSOE भर्ना जानकारी: स्नातक योग्यता मापदण्ड
+- मान्यता प्राप्त बोर्डबाट न्यूनतम GPA २.० वा ५०% कुल अंकका साथ १०+२ वा सो सरहको पूरा गरेको।
+- अधिकांश इन्जिनियरिङ कार्यक्रमहरू (सिभिल, मेकानिकल, इलेक्ट्रिकल, कम्प्युटर, आदि) का लागि, विद्यार्थीले भौतिकशास्त्र, रसायनशास्त्र र गणित (PCM) समूह लिएको हुनुपर्छ।
+- A-Level का लागि: सान्दर्भिक संयोजनमा (PCB, PCM, वा PMCs) न्यूनतम ३ A-level विषयहरू र १ AS-level। A-level विद्यार्थीहरूले इन्जिनियरिङ कार्यक्रमहरूको लागि भौतिकशास्त्र, रसायनशास्त्र र गणित अध्ययन गरेको हुनुपर्छ।
+- IB डिप्लोमाका लागि: सान्दर्भिक संयोजनका साथ न्यूनतम ६ विषयहरू र प्रत्येक पाठ्यक्रममा अन्तिम IB ग्रेड ३।
+- CTEVT डिप्लोमा धारकहरू: सम्बन्धित अनुशासनहरूको लागि योग्य, समकक्ष प्रतिशत मापदण्डको अधीनमा। सान्दर्भिक इन्जिनियरिङ क्षेत्रमा तीन वर्षे डिप्लोमा सामान्यतया आवश्यक हुन्छ।
+- विदेशी बोर्डहरू: भर्नाको समयमा पाठ्यक्रम विकास केन्द्र (CDC), सानोठिमी, भक्तपुर, वा KU प्राधिकरणबाट समकक्षता प्रमाणपत्र प्रस्तुत गर्नुपर्छ।
+- जीवविज्ञान समूह (PCB) का उम्मेदवारहरूले PCM-आधारित KUCAT परीक्षाको लागि योग्य हुन सन्तोषजनक ग्रेडका साथ अतिरिक्त गणित उत्तीर्ण गरेको हुनुपर्छ।
+- कक्षा १२ को नतिजाको प्रतीक्षामा रहेका उम्मेदवारहरूले अस्थायी भर्नाको लागि आवेदन दिन सक्छन्। तर, तिनीहरूले विश्वविद्यालयले तोकेको समयसीमा भित्र अन्तिम अंकपत्र पेश गर्नुपर्छ र सबै आवश्यकताहरू पूरा गर्नुपर्छ, नत्र तिनीहरूको भर्ना रद्द हुनेछ।
 
 -c-h-u-n-k-h-e-r-e-
 
-# KUSOE Admission Information: Post-Entrance Examination Process
-
-## KUCAT-CBT Result and Merit List
-- The results of the KUCAT-CBT are published on the KU official website, usually within a few days of the test.
-- A merit list is published based on the scores obtained by the candidates. The minimum pass mark is not fixed and depends on the overall performance of the applicants in a given year, but generally, a score of around 40-50% is considered a competitive baseline.
-
-## If You Pass the Entrance Exam (Appear on the Merit List)
-- **Counseling:** Shortlisted candidates are called for a counseling session based on their merit rank. The counseling schedule is published on the KU website.
-- **Program Selection:** During counseling, candidates choose their preferred engineering discipline based on their merit rank and the availability of seats in that program. Higher-ranked candidates get the first choice.
-- **Admission Offer:** Successful candidates receive an offer of admission.
-- **Admission Confirmation:** To confirm the admission, candidates must submit their original academic documents for verification and pay the required admission and first-semester fees within the specified deadline.
-
-## If You Fail the Entrance Exam (Do Not Appear on the Merit List)
-- Candidates who do not score high enough to be on the merit list are not eligible for admission in that academic year.
-- There is no provision for re-evaluation of the CBT test.
-- Such candidates can apply again in the following year's admission cycle.
+# KUSOE भर्ना जानकारी: प्रवेश परीक्षा (KUCAT-CBT)
+- सबै आवेदकहरू (स्वास्थ्य सूचना विज्ञान र सम्पदा संरक्षणमा स्नातक बाहेक) काठमाडौं विश्वविद्यालय साझा प्रवेश परीक्षा (KUCAT) कम्प्युटर-आधारित परीक्षा (CBT) मा उपस्थित हुनुपर्छ।
+- परीक्षा १०+२ पाठ्यक्रममा आधारित बहुविकल्पीय प्रश्नहरू (MCQs) समावेश गर्दछ।
+- परीक्षा समूहहरू: PCM (भौतिकशास्त्र, रसायनशास्त्र, गणित) वा PCB (भौतिकशास्त्र, रसायनशास्त्र, जीवविज्ञान), कार्यक्रम अनुसार। इन्जिनियरिङ आवेदकहरूले PCM परीक्षा लिनुपर्छ।
+- प्रवेश परीक्षा KU धुलिखेल क्याम्पसमा आयोजित कम्प्युटर-आधारित परीक्षा (CBT) हो। अंकहरू सामान्यतया सही उत्तरहरूको संख्यामा आधारित हुन्छन्, र यी अंकहरूको आधारमा मेरिट सूची प्रकाशित गरिन्छ।
 
 -c-h-u-n-k-h-e-r-e-
 
-# KUSOE Admission Information: Seat Allocation
-The number of seats for each program is limited and can vary slightly each year. The approximate number of seats for major engineering programs are as follows (please refer to the official KU website for the exact numbers for the current year):
-- Computer Engineering: ~60 seats
-- Electrical and Electronics Engineering: ~60 seats
-- Mechanical Engineering: ~60 seats
-- Civil Engineering: ~60 seats
-- Artificial Intelligence: ~30 seats
-- Information Technology: ~30 seats
-- Architecture: ~30 seats
+# KUSOE भर्ना जानकारी: प्रवेश परीक्षा पछिको प्रक्रिया
+
+## KUCAT-CBT परिणाम र मेरिट सूची
+- KUCAT-CBT को परिणामहरू KU आधिकारिक वेबसाइटमा प्रकाशित गरिन्छ, सामान्यतया परीक्षाको केही दिन भित्र।
+- उम्मेदवारहरूले प्राप्त गरेका अंकहरूको आधारमा मेरिट सूची प्रकाशित गरिन्छ। न्यूनतम उत्तीर्ण अंक निश्चित छैन र दिइएको वर्षमा आवेदकहरूको समग्र प्रदर्शनमा निर्भर गर्छ, तर सामान्यतया लगभग ४०-५०% अंकलाई प्रतिस्पर्धी आधारभूत मानिन्छ।
+
+## यदि तपाईं प्रवेश परीक्षामा उत्तीर्ण हुनुहुन्छ (मेरिट सूचीमा देखिनुहुन्छ)
+- **परामर्श:** छनोट भएका उम्मेदवारहरूलाई तिनीहरूको मेरिट रैंकको आधारमा परामर्श सत्रको लागि बोलाइन्छ। परामर्श तालिका KU वेबसाइटमा प्रकाशित गरिन्छ।
+- **कार्यक्रम छनोट:** परामर्शको समयमा, उम्मेदवारहरूले आफ्नो मेरिट रैंक र त्यो कार्यक्रममा सिटहरूको उपलब्धताको आधारमा आफ्नो मनपर्ने इन्जिनियरिङ अनुशासन छनोट गर्छन्। उच्च रैंकका उम्मेदवारहरूले पहिलो छनोट पाउँछन्।
+- **भर्ना प्रस्ताव:** सफल उम्मेदवारहरूले भर्नाको प्रस्ताव प्राप्त गर्छन्।
+- **भर्ना पुष्टि:** भर्ना पुष्टि गर्न, उम्मेदवारहरूले प्रमाणीकरणको लागि आफ्ना मूल शैक्षिक कागजातहरू पेश गर्नुपर्छ र निर्दिष्ट समयसीमा भित्र आवश्यक भर्ना र पहिलो सेमेस्टर शुल्क भुक्तानी गर्नुपर्छ।
+
+## यदि तपाईं प्रवेश परीक्षामा असफल हुनुहुन्छ (मेरिट सूचीमा देखिनुहुन्न)
+- मेरिट सूचीमा पर्न पर्याप्त अंक नल्याउने उम्मेदवारहरू त्यो शैक्षिक वर्षमा भर्नाको लागि योग्य छैनन्।
+- CBT परीक्षाको पुनर्मूल्यांकनको कुनै प्रावधान छैन।
+- त्यस्ता उम्मेदवारहरूले अर्को वर्षको भर्ना चक्रमा फेरि आवेदन दिन सक्छन्।
 
 -c-h-u-n-k-h-e-r-e-
 
-# KUSOE General Information: Fee Structure Overview
-The total fee for each program is paid over the duration of the course in semester-wise installments. The fee structure for each program, including a detailed semester-wise breakdown, is provided in the respective program files. The general fee structure is as follows:
-- **Architecture (5 years):** NPR 1,045,000
-- **All other 4-year undergraduate engineering programs:** NPR 915,000
-- **Note:** Fees are subject to change annually. The fees mentioned here are for the 2024/25 academic year. Additional fees for labs, exams, and other miscellaneous expenses may apply.
+# KUSOE भर्ना जानकारी: सिट आवंटन
+प्रत्येक कार्यक्रमको लागि सिटहरूको संख्या सीमित छ र प्रत्येक वर्ष अलिकति फरक हुन सक्छ। मुख्य इन्जिनियरिङ कार्यक्रमहरूको लागि अनुमानित सिट संख्या निम्नलिखित छ (वर्तमान वर्षको लागि सही संख्याहरूको लागि कृपया आधिकारिक KU वेबसाइट हेर्नुहोस्):
+- कम्प्युटर इन्जिनियरिङ: ~६० सिट
+- विद्युत तथा इलेक्ट्रोनिक्स इन्जिनियरिङ: ~६० सिट
+- मेकानिकल इन्जिनियरिङ: ~६० सिट
+- सिभिल इन्जिनियरिङ: ~६० सिट
+- कृत्रिम बुद्धिमत्ता: ~३० सिट
+- सूचना प्रविधि: ~३० सिट
+- आर्किटेक्चर: ~३० सिट
 
 -c-h-u-n-k-h-e-r-e-
 
-# KUSOE General Information: Facilities and Student Life
-- **Internships:** Strong emphasis on internships and industry exposure.
-- **Financial Aid/Scholarships:** Need-based and partial scholarships available as per KU provisions, including University Grants Commission formula funding and department-specific scholarships.
-- **Exchange Programs:** Opportunities for student exchanges with partner institutions.
-- **Student Clubs:** Multiple student clubs and societies for professional and personal development.
-- **Faculty:** Experienced faculty, visiting professors, and guest lecturers from industry and academia.
-- **Campus Environment:** Beautiful, serene campus with excellent surroundings, ideal for study and research.
+# KUSOE सामान्य जानकारी: शुल्क संरचना परिचय
+प्रत्येक कार्यक्रमको कुल शुल्क पाठ्यक्रमको अवधिभर सेमेस्टर-वार किस्ताहरूमा भुक्तानी गरिन्छ। प्रत्येक कार्यक्रमको शुल्क संरचना, विस्तृत सेमेस्टर-वार विभाजन सहित, सम्बन्धित कार्यक्रम फाइलहरूमा प्रदान गरिएको छ। सामान्य शुल्क संरचना निम्नलिखित छ:
+- **आर्किटेक्चर (५ वर्ष):** नेपाली रुपैयाँ दश लाख पैंतालीस हजार
+- **अन्य सबै ४ वर्षे स्नातक इन्जिनियरिङ कार्यक्रमहरू:** नेपाली रुपैयाँ नौ लाख पन्ध्र हजार
+- **नोट:** शुल्कहरू वार्षिक रूपमा परिवर्तन हुन सक्छ। यहाँ उल्लेख गरिएका शुल्कहरू २०२४/२५ शैक्षिक वर्षका लागि हुन्। प्रयोगशाला, परीक्षा र अन्य विविध खर्चहरूको लागि अतिरिक्त शुल्कहरू लागू हुन सक्छ।
+
+-c-h-u-n-k-h-e-r-e-
+
+# KUSOE सामान्य जानकारी: सुविधाहरू र विद्यार्थी जीवन
+- **इन्टर्नशिप:** इन्टर्नशिप र उद्योग एक्सपोजरमा बलियो जोड।
+- **आर्थिक सहायता/छात्रवृत्ति:** KU प्रावधान अनुसार आवश्यकता-आधारित र आंशिक छात्रवृत्तिहरू उपलब्ध, विश्वविद्यालय अनुदान आयोग सूत्र कोष र विभाग-विशिष्ट छात्रवृत्तिहरू सहित।
+- **आदान-प्रदान कार्यक्रमहरू:** साझेदार संस्थानहरूसँग विद्यार्थी आदान-प्रदानका अवसरहरू।
+- **विद्यार्थी क्लबहरू:** व्यावसायिक र व्यक्तिगत विकासका लागि धेरै विद्यार्थी क्लब र समाजहरू।
+- **शिक्षकहरू:** अनुभवी शिक्षकहरू, भ्रमणकारी प्राध्यापकहरू र उद्योग र शिक्षाजगतका अतिथि व्याख्याताहरू।
+- **क्याम्पस वातावरण:** सुन्दर, शान्त क्याम्पस उत्कृष्ट वातावरणका साथ, अध्ययन र अनुसन्धानको लागि आदर्श।
 
 -c-h-u-n-k-h-e-r-e-
 
@@ -136,8 +136,8 @@ The total fee for each program is paid over the duration of the course in semest
 
 -c-h-u-n-k-h-e-r-e-
 
-# KUSOE General Information: Contact Information
-School of Engineering, Kathmandu University
-Dhulikhel, Kavrepalanchok, Nepal
-Phone: +977-11-415100
-Official Website: ku.edu.np
+# KUSOE सामान्य जानकारी: सम्पर्क जानकारी
+इन्जिनियरिङ स्कूल, काठमाडौं विश्वविद्यालय
+धुलिखेल, काभ्रेपलाञ्चोक, नेपाल
+फोन: +९७७-११-४१५१००
+आधिकारिक वेबसाइट: ku.edu.np

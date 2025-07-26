@@ -1,43 +1,43 @@
-# Bachelor of Engineering in Mechanical Engineering (ME)
+# मेकानिकल इन्जिनियरिङमा स्नातक (ME)
 
 -c-h-u-n-k-h-e-r-e-
 
-## Mechanical Engineering (ME) Program Overview
-The Bachelor of Engineering in Mechanical Engineering at KUSOE is a four-year program that provides a broad and rigorous education in the principles of mechanical engineering. The curriculum covers a wide range of subjects, including mechanics, thermodynamics, fluid mechanics, materials science, and design. The program prepares students for careers in various industries, including manufacturing, automotive, aerospace, and energy.
+## मेकानिकल इन्जिनियरिङ (ME) कार्यक्रम परिचय
+KUSOE मा मेकानिकल इन्जिनियरिङमा स्नातक चार वर्षे कार्यक्रम हो जसले मेकानिकल इन्जिनियरिङका सिद्धान्तहरूमा व्यापक र कठोर शिक्षा प्रदान गर्छ। पाठ्यक्रमले मेकानिक्स, थर्मोडायनामिक्स, फ्लुइड मेकानिक्स, सामग्री विज्ञान र डिजाइन सहित विस्तृत विषयहरू समेट्छ। कार्यक्रमले विद्यार्थीहरूलाई उत्पादन, अटोमोटिभ, एयरोस्पेस र ऊर्जा सहित विभिन्न उद्योगहरूमा करियरको लागि तयार पार्छ।
 
 -c-h-u-n-k-h-e-r-e-
 
-## Mechanical Engineering (ME) Program Objectives
-- To provide a strong foundation in the fundamental principles of mechanical engineering.
-- To develop skills in the design, analysis, and manufacturing of mechanical systems.
-- To provide knowledge of energy systems and thermal sciences.
-- To foster an understanding of the properties and behavior of materials.
-- To encourage innovation and creativity in solving engineering problems.
+## मेकानिकल इन्जिनियरिङ (ME) कार्यक्रम उद्देश्यहरू
+- मेकानिकल इन्जिनियरिङका आधारभूत सिद्धान्तहरूमा बलियो आधार प्रदान गर्नु।
+- मेकानिकल प्रणालीहरूको डिजाइन, विश्लेषण र उत्पादनमा सीपहरू विकास गर्नु।
+- ऊर्जा प्रणाली र तापीय विज्ञानको ज्ञान प्रदान गर्नु।
+- सामग्रीहरूको गुण र व्यवहारको बुझाइ बढाउनु।
+- इन्जिनियरिङ समस्याहरू समाधान गर्नमा नवाचार र रचनात्मकतालाई प्रोत्साहन दिनु।
 
 -c-h-u-n-k-h-e-r-e-
 
-## Mechanical Engineering (ME) Career Prospects
-Graduates can find employment in:
-- Manufacturing and Production Industries
-- Automotive and Aerospace Industries
-- Power Plants and Energy Sector
-- HVAC and Refrigeration Companies
-- Robotics and Automation
-- Research and Development
+## मेकानिकल इन्जिनियरिङ (ME) करियर सम्भावनाहरू
+स्नातकहरूले निम्नलिखित क्षेत्रमा रोजगारी पाउन सक्छन्:
+- उत्पादन र निर्माण उद्योगहरू
+- अटोमोटिभ र एयरोस्पेस उद्योगहरू
+- पावर प्लान्ट र ऊर्जा क्षेत्र
+- HVAC र रेफ्रिजेरेसन कम्पनीहरू
+- रोबोटिक्स र स्वचालन
+- अनुसन्धान र विकास
 
 -c-h-u-n-k-h-e-r-e-
 
-## Mechanical Engineering (ME) Fee Structure
-The total fee for the 4-year Mechanical Engineering program is NPR 915,000. This is broken down into semester-wise payments as follows (amounts are approximate and subject to change):
-- **Admission Fee:** NPR 100,000 (one-time payment at the time of admission)
-- **Security Deposit:** NPR 10,000 (one-time, refundable)
-- **Semester 1 Fee:** NPR 101,875
-- **Semester 2 Fee:** NPR 101,875
-- **Semester 3 Fee:** NPR 101,875
-- **Semester 4 Fee:** NPR 101,875
-- **Semester 5 Fee:** NPR 101,875
-- **Semester 6 Fee:** NPR 101,875
-- **Semester 7 Fee:** NPR 101,875
+## मेकानिकल इन्जिनियरिङ (ME) शुल्क संरचना
+चार वर्षे मेकानिकल इन्जिनियरिङ कार्यक्रमको कुल शुल्क नेपाली रुपैयाँ नौ लाख पन्ध्र हजार छ। यो निम्नलिखित सेमेस्टर-वार भुक्तानीमा विभाजित छ (रकमहरू अनुमानित छन् र परिवर्तन हुन सक्छ):
+- **भर्ना शुल्क:** नेपाली रुपैयाँ एक लाख (भर्नाको समयमा एक पटक भुक्तानी)
+- **सुरक्षा जम्मा:** नेपाली रुपैयाँ दश हजार (एक पटक, फिर्ता गरिने)
+- **सेमेस्टर १ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर २ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ३ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ४ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ५ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ६ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
+- **सेमेस्टर ७ शुल्क:** नेपाली रुपैयाँ एक लाख एक हजार आठ सय पचहत्तर
 - **Semester 8 Fee:** NPR 101,875
 - **Note:** Additional fees for exams, lab materials, and other miscellaneous expenses may be applicable.
 
