@@ -165,11 +165,6 @@ vad = VADHandler(
 - Type your questions directly in the text input field
 - Supports both Nepali and English text
 
-### Voice Commands
-- **"नमस्ते"** - Greeting and introduction
-- **"धन्यवाद"** - Thank you and goodbye
-- **"तपाईं को हुनुहुन्छ?"** - Ask about the assistant
-
 ## 🔧 Development
 
 ### Adding New Knowledge
@@ -185,41 +180,6 @@ Edit the prompt templates in `app/backend/rag_handler.py` and `app/backend/agent
 ### Adjusting Voice Detection
 Modify parameters in `app/backend/vad_handler.py` for different environments
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### Development Setup
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes and test thoroughly
-4. Submit a pull request
-
-## 📊 Performance
-
-- **Response Time**: < 3 seconds for most queries
-- **Voice Detection**: Adaptive noise filtering with 95%+ accuracy
-- **Knowledge Base**: 60+ documents with multilingual embeddings
-- **Concurrent Users**: Supports multiple simultaneous connections
-
-## 🛠️ Troubleshooting
-
-### Common Issues
-
-**Voice not detected:**
-- Check microphone permissions
-- Adjust VAD sensitivity settings
-- Ensure quiet environment for initial setup
-
-**Slow responses:**
-- Verify GEMINI_API_KEY is set correctly
-- Check internet connection
-- Consider using GPU acceleration
-
-**Knowledge base errors:**
-- Run `python rebuild_vector_db.py`
-- Check ChromaDB installation
-- Verify KUSOE_database content
 
 ## 📄 License
 
